@@ -6,13 +6,16 @@ import mysql.connector
 import asyncio
 from datetime import datetime, timedelta
 import json
-# import os
+import os
 # import schedule
 # import time
 # import sqlalchemy
 
 # Log (Logger)
 logger = settings.logging.getLogger("bot")
+
+# caminhos de arquivos
+file_storage_data = settings.file_storage_data
 
 
 # MySQL: Verificar Players Online
@@ -74,14 +77,14 @@ def check_players_on():
 
 # Função para salvar os dados no arquivo JSON
 def save_data_to_json(data):
-    with open('storage_data.json', 'w') as json_file:
+    with open(file_storage_data, 'w') as json_file:
         json.dump(data, json_file, indent=2)
     print("Dados atualizados em storage_data.json")
 
 
 # Função para obter os dados do arquivo JSON
 def load_data_from_json():
-    with open('storage_data.json', 'r') as json_file:
+    with open(file_storage_data, 'r') as json_file:
         data = json.load(json_file)
     return data
 
