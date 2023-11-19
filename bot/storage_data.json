@@ -1,0 +1,37 @@
+{
+  "bot": {
+    "nome": "BOT TERA",
+    "dados": {
+      "application_id": 1174437079359426722,
+      "public_key": "1dedc3e538caef9615eafe04afc282d0534cadea000e6099236ecd1f38509981",
+      "bot_token": "bot_t0k3n_h3r3_save_in_env",
+      "invite_url": "https://discord.com/api/oauth2/authorize?client_id=1174437079359426722&permissions=8&scope=bot",
+      "presence_intent": false,
+      "server_members_intent": false,
+      "message_content_intent": false,
+      "bot_prefix": "!"
+    }
+  },
+  "links": {
+    "link1": "https://linktr.ee/vortexjogos",
+    "link2": "https://tera.vortexlab.xyz/"
+  },
+  "config1": {
+    "nome": "exemplo1",
+    "dados": {
+      "info1": "",
+      "info2": ""
+    }
+  },
+  "config2": {
+    "nome": "exemplo1",
+    "dados": {
+      "info1": "",
+      "info2": ""
+    }
+  },
+  "vortex_tera": {
+    "server_status": "Online",
+    "players_online": 0
+  }
+}
