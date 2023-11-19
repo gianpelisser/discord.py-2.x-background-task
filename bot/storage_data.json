@@ -3,9 +3,9 @@
     "nome": "BOT TERA",
     "dados": {
       "application_id": 1174437079359426722,
-      "public_key": "1dedc3e538caef9615eafe04afc282d0534cadea000e6099236ecd1f38509981",
+      "public_key": "00000000000000e1e123e2131232132131212",
       "bot_token": "bot_t0k3n_h3r3_save_in_env",
-      "invite_url": "https://discord.com/api/oauth2/authorize?client_id=1174437079359426722&permissions=8&scope=bot",
+      "invite_url": "https://discord.com/api/oauth2/authorize?client_id=000000000000000&permissions=8&scope=bot",
       "presence_intent": false,
       "server_members_intent": false,
       "message_content_intent": false,
